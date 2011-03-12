@@ -5,8 +5,6 @@
   and LICENSE for licensing details.
 */
 
-var sys = require('sys')
-
 var Facemelt = (function() {
 	function evaluate(string, bindings){
 		var i=0, len = string.length, b=0, j=[], s=0, out_str = ""
@@ -77,5 +75,3 @@ var Facemelt = (function() {
 		}
 	})
 })();
-
-sys.puts(Facemelt.to_html(",MY>, >,FACE>, >,IS>, >,MELTING<<<<<<.>.>.>.>.>.>.", []))

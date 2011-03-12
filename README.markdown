@@ -10,7 +10,7 @@ Facemelt templates are conceptually simple. Anything which isn't a Facemelt comm
 
     ,MY>, >,FACE>, >,IS>, >,MELTING<<<<<<.>.>.>.>.>.>.
 
-The API is simple. Simply call `Facemelt.to_html` with your template and your initial data array. Data can be printed using `.`, and modified at any time with any of `+-,`. You can also navigate the data array by using any of `>` or `<`.
+The API is simple. Simply call `Facemelt.to_html` with your template and your initial data array. Data can be printed using `.`, and modified at any time with any of `+-,`. You can also navigate the data array by using `>` or `<`.
 
     var source = ",HELLO., .>."
     var data = ["", "WORLD"]
